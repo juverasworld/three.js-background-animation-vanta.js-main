@@ -20,7 +20,10 @@
 body {
 	background: var(--second-color);
 }
-
+/* .bg{
+	backdrop-filter: blur(15px);
+	background: #9999991f;
+} */
 .wrapp {
 	position: relative;
 	width: 100%;
@@ -59,7 +62,7 @@ body {
 	width: 100%;
 	height: auto;
 	border-radius: 20px;
-	border: 1px solid #ff5100;
+	border: 1px solid #1900ff;
 }
 
 .title {
@@ -78,7 +81,7 @@ body {
 	min-height: 10px;
 	flex: 1 1 100%;
 	overflow: hidden;
-	border-radius: 20px;
+	/* border-radius: 20px; */
 }
 
 .header__footer {
